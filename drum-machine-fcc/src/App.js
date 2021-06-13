@@ -1,7 +1,7 @@
 import React from 'react';
-import React, { Component, } from 'react';
+import ReactDOM from 'react-dom';
 
-import './App.css';
+import './style.css';
 
 const clips = [
   {
@@ -104,4 +104,7 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+
 ReactDOM.render(<App />, document.getElementById('drum-machine'));
+
+export default App
