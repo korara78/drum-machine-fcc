@@ -103,7 +103,8 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-
-ReactDOM.render(<App />, document.getElementById('drum-machine'));
+//Deprecated ReactDOM.render(...) from App.js file as per https://stackoverflow.com/questions/67962823/why-does-react-app-appear-twice-on-webpage/67962871#67962871
+//Calling render twice will cause two versions of app to appear. 
+//ReactDOM.render(<App />, document.getElementById('drum-machine'));
 
 export default App
