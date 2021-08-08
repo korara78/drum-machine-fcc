@@ -1,6 +1,6 @@
 # Overview
 
-An drum machine app which playback an HTML5 audio element when each respective keypad is pressed. The keypad will also glow when pressed. The onscreen keypad may be pressed via a touch screen or when the specific keyboard letter is pressed. 
+A drum machine app which plays back an HTML5 audio element when each respective keypad is pressed. The keypad will also glow when pressed. The onscreen keypad may be pressed via a touch screen or when the specific keyboard letter is pressed. 
 
 Based on a stateful class component. 
 
