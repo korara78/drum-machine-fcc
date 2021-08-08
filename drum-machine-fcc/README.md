@@ -1,9 +1,12 @@
-
 # Overview
 
+An drum machine app which playback an HTML5 audio element when each respective keypad is pressed. The keypad will also glow when pressed. The onscreen keypad may be pressed via a touch screen or when the specific keyboard letter is pressed. 
 
+Based on a stateful class component. 
 
+Within the main outer container #drum-machine there are 9 clickable drum pad elements, each with a class name of drum-pad, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. 
 
+Based on the Freecodecamp.org projects towards the Front End Development Libraries Certification.
 
 # Getting Started with Create React App
 
