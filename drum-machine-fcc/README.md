@@ -8,6 +8,10 @@ Within the main outer container #drum-machine there are 9 clickable drum pad ele
 
 Based on the Freecodecamp.org projects towards the Front End Development Libraries Certification.
 
+##
+
+This app is published on https://korara78.github.io/drum-machine-fcc/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
