@@ -56,7 +56,7 @@ class DrumPad extends React.Component {
     
     this.audio = React.createRef();
   }
-  
+   //This componentDidMount() method is called after the component gets mounted on the DOM hence "did". Note: the render method is called before this executes//
   componentDidMount() {
     this.audio.current.addEventListener('ended', (e) => {
       const parent = e.target.parentNode;
