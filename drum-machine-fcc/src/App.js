@@ -50,7 +50,7 @@ const App = () => (
     ))}
   </div>
 );
-
+//Refs are created using React.createRef() and attached to React elements via the ref attribute.//
 class DrumPad extends React.Component {
   constructor(props) {
     super(props);
